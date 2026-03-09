@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Sprites\Goblin\attack.png" />
+    <None Remove="Assets\Sprites\Goblin\death.png" />
+    <None Remove="Assets\Sprites\Goblin\hurt.png" />
+    <None Remove="Assets\Sprites\Goblin\idle.png" />
+    <None Remove="Assets\Sprites\Goblin\walk.png" />
+    <None Remove="Assets\Sprites\UI\coin.png" />
+    <None Remove="Assets\Sprites\UI\healthbar_empty.png" />
+    <None Remove="Assets\Sprites\UI\healthbar_full.png" />
+    <None Remove="Assets\Sprites\Vampire\attack.png" />
+    <None Remove="Assets\Sprites\Vampire\death.png" />
+    <None Remove="Assets\Sprites\Vampire\hurt.png" />
+    <None Remove="Assets\Sprites\Vampire\idle.png" />
+    <None Remove="Assets\Sprites\Vampire\walk.png" />
+    <None Remove="Assets\Sprites\Warrior\attack.png" />
+    <None Remove="Assets\Sprites\Warrior\death.png" />
+    <None Remove="Assets\Sprites\Warrior\hurt.png" />
+    <None Remove="Assets\Sprites\Warrior\idle.png" />
+    <None Remove="Assets\Sprites\Warrior\walk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Sprites\Goblin\attack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Goblin\death.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Goblin\hurt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Goblin\idle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Goblin\walk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\UI\coin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\UI\healthbar_empty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\UI\healthbar_full.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Vampire\attack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Vampire\death.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Vampire\hurt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Vampire\idle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Vampire\walk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Warrior\attack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Warrior\death.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Warrior\hurt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Warrior\idle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Sprites\Warrior\walk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
