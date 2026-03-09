@@ -12,6 +12,28 @@
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="MiniRPG" Foreground="White" FontSize="36" HorizontalAlignment="Center" Margin="0,0,0,20"/>
                 <Button Content="Start" Width="120" Height="40" Click="StartButton_Click"/>
+
+                <!-- Sezione informativa -->
+                <Border BorderBrush="White" BorderThickness="2" CornerRadius="10" Padding="10" Background="#111111" Margin="0,20,0,0">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Height="170">
+                        <StackPanel>
+                            <!-- Scopo del gioco -->
+                            <TextBlock Text="🎯 Scopo del gioco:" Foreground="LightBlue" FontWeight="Bold" FontSize="16" Margin="0,0,0,5"/>
+                            <TextBlock Text="Sconfiggi tutti i nemici in ogni livello, raccogli monete e potenzia il tuo personaggio per avanzare ai livelli successivi." 
+                       TextWrapping="Wrap" Foreground="White" Margin="0,0,0,10"/>
+
+                            <!-- Comandi -->
+                            <TextBlock Text="🕹️ Comandi:" Foreground="LightGreen" FontWeight="Bold" FontSize="16" Margin="0,0,0,5"/>
+                            <TextBlock Text="Muovi il personaggio: W A S D" TextWrapping="Wrap" Foreground="White"/>
+                            <TextBlock Text="Attacco: Spazio" TextWrapping="Wrap" Foreground="White" Margin="0,0,0,10"/>
+
+                            <!-- Upgrade -->
+                            <TextBlock Text="⚡ Upgrade:" Foreground="Orange" FontWeight="Bold" FontSize="16" Margin="0,0,0,5"/>
+                            <TextBlock Text="Dopo ogni livello completato puoi spendere le monete per aumentare Danno, Velocità o Salute Massima del tuo personaggio." 
+                       TextWrapping="Wrap" Foreground="White"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
             </StackPanel>
         </Grid>
 
